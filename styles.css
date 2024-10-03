@@ -1,0 +1,46 @@
+:root {
+    --branco-principal: #000000;
+    --cinza-secundario: #7349aa;
+    --botao-azul: #fffb04;
+    --cor-de-fundo: #b64bc0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.img{
+    width: 50%;
+}
+
+.principal {
+    background-image: url("img/fundo\ salto\ alto.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 20px;
+    border: 2px solid;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+}
+
+.botao_secundario {
+    background-color: var(--botao-azul);
+    border: 2px solid var(--branco-principal);
+}
